@@ -1,0 +1,385 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page {
+    background-color: #F9C654;
+    text-align: center;
+    padding-bottom: 165px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+nav h2 {
+    font-family: Orbitron;
+    align-content: center;
+    margin-right: 970px;
+}
+
+nav ul {
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 25px;
+}
+
+ul li a {
+    color: black;
+    font-family: Roboto;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 30px;
+}
+    
+.icon-envelope, .icon-phone  {
+    display: flex;
+    margin-right: -20px;
+}
+
+#logo-img {
+    width: 38px;
+    height: 38px;
+    margin-left: 45px;
+}
+
+#title {
+    text-align: left;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 110px;
+}
+
+#subtitle {
+    text-align: left;
+    font-family: Orbitron;
+    font-weight: 700;
+    font-size: 52px;
+    margin-left: 100px;
+}
+
+.bold {
+    font-family: Roboto;
+    font-weight: 800;
+}
+
+.info {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-right: 700px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.event {
+    background-color: #F2B630;
+    height: 42px;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 8px;
+    margin: 5px;
+}
+
+.no-text-decoration {
+    text-decoration: none;
+    color: black;
+}
+
+.botao-container {
+    position: relative;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+
+#meu-botao {
+    position: absolute;
+    width: 150px;
+    height: 42px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: #ffffff;
+    align-content: center;
+    
+}
+
+#borda {
+    background-color: black;
+    width: 150px;
+    height: 42px;
+    margin-right: 10px;
+    margin-top: 10px; 
+}
+
+#speakers-page {
+    text-align: center;
+}
+
+#speakers-title {
+    font-family: Orbitron;
+    font-size: 42px;
+    font-weight: 700;
+    padding-top: 60px;
+    margin-right: 1000px;
+}
+
+.speakers-id {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.speakers-flex {
+    font-size: 26px;
+    list-style: none;
+    padding: 80px;
+    padding-top: 100px;
+}
+
+.programador1-moldura {
+    border: 16px solid #F2B630;
+    border-radius: 160px;
+    width: 275px;
+    height: 275px;
+    object-fit: cover;
+    object-position: 0% 20%;
+    margin-bottom: 37px;
+}
+
+.img-moldura {
+    border: 16px solid #F2B630;
+    border-radius: 160px;
+    width: 275px;
+    height: 275px;
+    object-fit: cover;
+    margin-bottom: 37px;
+}
+
+.decoration-speakers {
+    position: relative;
+    width: 105px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 108px;
+    
+}
+
+#item-frente {
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    background-color: #F2B630;
+    align-content: center;
+    
+}
+
+#item-fundo {
+    background-color: black;
+    width: 100px;
+    height: 9px;
+    margin-right: 5px;
+    margin-top: 7px; 
+}
+
+#content-title {
+    font-family: Orbitron;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.content-page {
+    display: flex;
+    padding-bottom: 300px;   
+}
+
+.content-text {
+    font-family: Roboto;
+    font-size: 16px;
+    padding-top: 0;
+    margin: 100px;
+    margin-right: 35px;
+    padding-right: 10px;
+}   
+
+.text-article {
+    padding-top: 20px;
+    
+}
+
+.article-list {
+    margin-left: 20px;
+}
+
+.decoration-content {
+    padding-bottom: 20px;
+    position: relative;
+    width: 105px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3px
+}
+
+#item-frente-content {
+    position: absolute;
+    width: 100px;
+    height: 8px;
+    background-color: #F2B630;
+    align-content: center; 
+}
+
+#item-fundo-content {
+    background-color: black;
+    width: 100px;
+    height: 9px;
+    margin-right: 5px;
+    margin-top: 7px; 
+} 
+
+#cadastro-title {
+    font-family: Orbitron;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 10px;
+}
+
+.moldura-cadastro {
+    width: 750px;
+    height: 750px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-right: 40px;
+    margin-right: 80px;
+}
+
+.cadastro {
+    background-color: #F9C654;
+    position: absolute;
+    width: 625px;
+    height: 690px;
+    margin-left: 30px;
+}
+
+.borda-cadastro {
+    background-color: black;
+    width: 625px;
+    height: 690px;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.cadastro-container {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 15px;
+    width: 550px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 40px;
+    
+}
+
+.cadastro-nome, .cadastro-cep, .cadastro-telefone, .cadastro-estado, .cadastro-cidade, .cadastro-bairro {
+    width: 270px;
+    height: 61px;
+}
+
+.cadastro-email, .cadastro-logradouro {
+    width: 560px;
+    height: 61px;
+}
+
+#estado {
+    width: 270px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #F9C654;
+    margin-top: 5px;
+}
+
+input {
+    background-color:#F9C654;
+    width: 100%;
+    height: 38px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 450;
+    text-align: center;
+    font-size: 15px; 
+}
+
+
+.enviar-moldura {
+    position: relative;
+    width: 195px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+#enviar-botao {
+    position: absolute;
+    width: 180px;
+    height: 45px;
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 16px;
+    background-color: #ffffff;
+    align-content: center;
+    border: none;
+    border-radius: 0px;
+    
+}
+
+#enviar-borda {
+    background-color: black;
+    width: 180px;
+    height: 45px;
+    margin-right: 14px;
+    margin-top: 19px; 
+}
+
+
+    
+
+
+
