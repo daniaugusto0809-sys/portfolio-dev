@@ -4,20 +4,21 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meu Site</title>
-        <link rel="stylesheet" type ="text/css" href="style.css">
+        <link rel="stylesheet" href="/LandingPage/assets/css/style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=arrow_drop_down" />
 <script src="https://kit.fontawesome.com/c8b3614554.js" crossorigin="anonymous"></script>
+<script src="/LandingPage/assets/js/script.js" refer></script>
     </head>
     
 <body>
     <div class="landing-page">
 <header>
     <nav> 
-            <img id="logo-img" src="b1t.logo.png" alt="B1t Builders.logo">
+            <img id="logo-img" src="/LandingPage/assets/images/b1t.logo.png" alt="B1t Builders.logo">
         <h2>B1t Builders</h2>
         <ul>
             <span class="icon-envelope">
@@ -71,21 +72,21 @@
         
     <ul class="speakers-id">
         <li class="speakers-flex">
-                <img class="programador1-moldura" src="programador1.jpg" alt="programador1">
+                <img class="programador1-moldura" src="/LandingPage/assets/images/programador1.jpg" alt="programador1">
             <div class="speakers-legenda">
                 <strong class="bold">Michael Summer<br></strong>Front-End Engineer
             </div>
         </li>
                 
         <li class="speakers-flex">       
-                <img class="img-moldura" src="programador2.jpg" alt="programador2">
+                <img class="img-moldura" src="/LandingPage/assets/images/programador2.jpg" alt="programador2">
             <div class="speakers-legenda">
                 <strong class="bold">Erico Suarez<br></strong>Full Stack Developer
             </div>
         </li>
         
         <li class="speakers-flex">
-                <img class="img-moldura" src="programadora3.jpg" alt="programador3">
+                <img class="img-moldura" src="/LandingPage/assets/images/programadora3.jpg" alt="programador3">
             <div class="speakers-legenda">
                 <strong class="bold">Laura Motwani<br></strong>Art Director
             </div>
@@ -118,60 +119,61 @@
         </article>
     
    <div class="moldura-cadastro">
-     <form action="/action_page.php" method="get" class="cadastro">
+     <form class="cadastro">
         <h3 id="cadastro-title">Inscreva-se<br>gratuitamente</h3>
 
         <div class="cadastro-container"> 
 
             <div class="cadastro-nome">
                 <label for="nome">Nome Completo</label>
-                    <input type="text" id="nome" name="nome" placeholder="">
+                    <input type="text" id="nome" name="nome">
                 </div>
 
             <div class="cadastro-telefone"> 
                 <label for="telefone">Telefone</label>
-                    <input type="number" id="phone" name="phone" placeholder="">
+                    <input type="number" id="phone" name="phone">
                 </div>
 
             <div class="cadastro-email">
                 <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" placeholder="">
+                    <input type="email" id="email" name="email">
                 </div>
 
-            <div class="cadastro-cep">
+                
+                <div class="cadastro-cep">
                 <label for="cep">CEP</label>
-                    <input type="number" id="cep" name="cep" placeholder="">
+                    <input type="text" id="cep" name="cep" maxlength="8" required>
                 </div>
 
             <div class="cadastro-estado">
                 <label for="estado">Estado</label>
-                    <select id="estado" name="estado" placeholder="">
-                        <option value="" disabled selected></option>
-                        <span class="material-symbols-outlined"></span>
-                    </select>
+                    <input type="text" id="estado" name="estado">
             </div>
 
             <div class="cadastro-cidade">
                 <label for="cidade">Cidade</label>
-                    <input type="text" id="cidade" name="cidade" placeholder="">
+                    <input type="text" id="cidade" name="cidade">
             </div>
 
             <div class="cadastro-bairro">
                 <label for="bairro">Bairro</label>
-                    <input type="text" id="bairro" name="bairro" placeholder="">
+                    <input type="text" id="bairro" name="bairro">
             </div>
 
             <div class="cadastro-logradouro">
                 <label for="logradouro">Logradouro</label>
-                    <input type="text" id="logradouro" name="logradouro" placeholder="">
+                    <input type="text" id="logradouro" name="logradouro">
             </div>
             
+                
+</form>
+
                 <div class="enviar-moldura">
                     <input type="submit" id="enviar-botao" value="ENVIAR">
                     <div id="enviar-borda"></div>
                 </div>
         </div>   
-    </form>
+    
     <div class="borda-cadastro"></div>
  </div>
 </section>
